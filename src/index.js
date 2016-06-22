@@ -1,3 +1,4 @@
-import TokenAutocomplete from './TokenAutocomplete';
+import main from './TokenAutocomplete';
 
+const TokenAutocomplete = main;
 export default TokenAutocomplete;
