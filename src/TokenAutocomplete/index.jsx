@@ -37,7 +37,7 @@ function tresholdPropType(props, propName, component) {
 
 @radium
 @StyleDefaults(styles)
-export default class TokenAutocomplete extends React.Component {
+class TokenAutocomplete extends React.Component {
 
   static displayName = 'TokenAutocomplete';
 
@@ -364,3 +364,5 @@ export default class TokenAutocomplete extends React.Component {
   }
 
 }
+
+export default TokenAutocomplete;
